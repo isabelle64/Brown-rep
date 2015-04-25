@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	    <link rel="icon" href="../../favicon.ico">
+
+		<title>Brown//Isabelle Wong</title>
+
+		<!--Bootstrap Core CSS-->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+	    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	    <script src="js/ie-emulation-modes-warning.js"></script>
+
+	    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+	    <!--JQuery-->
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	    <!--JQuery scrollTo function-->
+	    <script src="jquery-scrollTo.js"></script>
+
+		<!--Custom styles for this template-->
+		<link href="styles.css" rel="stylesheet">
+
+	</head>
+	<body>
+		<div class = "tots">
+			<div class = "second">
+				<img src="vanwicklegates.jpg" class="img-responsive center-block" alt="Responsive image"/>
+				<div class= "title">
+					<p1 id="title1">Isabelle Wong: The Quintessential</p1>
+					<p2 id="title1part2">Brown Student</p2>
+					</br>
+					<p3 id="title2">Why Brown University and Isabelle Wong are the Perfect Match</p3>
+				</div>
+				<div class = "tap">
+					<ul class="list-inline">
+							<!--buttons will scroll down the page, not lead to another page-->
+							<a type="button" class="btn btn-default btn-lg" id = "one" href="#third">An Update</a>
+							<a type="button" class="btn btn-default btn-lg" id = "two" href="#fourth">Isabelle @ Brown</a>
+					</ul>
+				</div>
+			</div>
+			<div class = "another">
+				<div id = "third">
+					<h1 id= "sect1lead">An Update</h1>
+					<div class = "section">
+						<table>
+							<tr id = "firstrow">
+								<th><p id="firstheader">ProjectCSGIRLS</p></th>
+							</tr>
+							<tr id = "secondrow">
+								<td id = "firstdat"><div style= "width: 500px;">As a lead member of the ProjectCSGIRLS Outreach Team, I've been consistently contacting and maintaining connections with many schools and organizations, publicizing and informing students of the opportunity to conduct their own research in the computer science and technology fields and develop a new contraption tackling a social issue that would be ultimately entered in the annual competition we hold.  At the beginning of this month, registration closed and I am now proud to say that <b style= "color:orange">over 500 girls</b> have been drawn to the organization, a significant increase in number from the previous year.</div></td>
+								<td id="seconddat">
+									<div class= "wrap">
+										<img src="maplocation.png" id="map"/>
+										<div class= "text_behind">
+											<div class="bulletone"><p>Influencing girls across the country</p></div>
+											<div class="bullettwo"><p>One at a time</p></div>
+										</div>
+										<p id="notif">(Hover)</p>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class = "other">
+				<div id = "fourth">
+					<h1 id= "top">Isabelle @ Brown</h1>
+					<div class= "collage">
+						<header class= "putborder">
+							<h1 id= "leader">Whether I am...</h1>
+							<p id= "labels">•<b style= "color: orange">collaboratively studying</b> with friends in the Leung Family Gallery in the Stephen Roberts Campus Center</p>
+							<p id= "labels">•staying up at night in Andrews Hall persuading my roommate to <b style= "color: orange">join the Brown Entrepreneurship Program (BrownEP)</b></p>
+							<p id= "labels">•<b style= "color: orange">conducting research</b> in the Giancarlos Laboratories</p>
+							<p id= "labels">•<b style= "color: orange">swimming laps</b> in the Coleman Aquatics Center as a part of the <b style= "color: orange">Brown Club Swim Team</b></p>
+							<p id= "labels">•lounging in the John Hay Library completing work for ENGN 1010: The Entrepreneurial Process: Innovation in Practice, as a part of the <b style= "color: orange">C.V. Starr Program in Business, Entrepreneurship, and Organizations</b></p>
+						</header>
+						</br>
+						<div class= "photobanner">
+							<img class="oneimg" id="size" src="stephenrobertscampcent.jpg" alt=""/>
+							<img src="andrewshall.jpg" id= "size" alt=""/>
+							<img src="giancarlolabs.jpg" id= "size" alt=""/>
+							<img src="colemanaquatics.jpg" id= "size" alt=""/>
+							<img src="johnhay.jpg" id= "size" alt=""/>
+							<img src="stephenrobertscampcent.jpg" id= "size" alt=""/>
+							<img src="andrewshall.jpg" id= "size" alt= ""/>
+							<img src="giancarlolabs.jpg" id= "size" alt= ""/>
+						</div>
+						</br></br>
+						<p id= "ending"><b><i>I can see myself becoming an integral part of the Brown community, not only individually evolving on campus, but adding to it as well.</i></b></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			$(document).ready(function() {
+				$("#one").click(function() {
+					$('body').scrollTo('#third', {duratoin: 'slow', offsetTop: '300'});
+				});
+			});
+		</script>
+	</body>
+</html>
+
