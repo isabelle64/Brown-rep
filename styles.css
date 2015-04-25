@@ -1,0 +1,303 @@
+.second {
+	position: relative;
+}
+
+.img-responsive {
+	margin-top: 0px;
+	z-index: 0;
+	width: 1400px;
+	height: 667px;
+	position: absolute;
+	opacity: 0.6;
+}
+
+/*title text*/
+.title {
+	z-index: 100;
+	margin-top: 250px;
+	position: absolute;
+	font: arial;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: bold;
+	color: black;
+}
+
+.title #title1 {
+	margin-left: 250px;
+	font-size: 55px;
+}
+
+.title #title1part2 {
+	margin-left: 490px;
+	font-size:55px;
+}
+.title #title2 {
+	margin-left: 180px;
+	font-size:35px;
+}
+
+.list-inline {
+	z-index: 100;
+	margin-top: 500px;
+	position: absolute;
+	display: inline;
+}
+
+/*first button*/
+#one {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	width: 200px;
+	position: absolute;
+	margin-left: 470px;
+	border: 2px solid;
+	border-color: black;
+	background-color: rgba(63, 81, 181, 0.1);
+	color: black;
+	font-weight: bold;
+}
+
+#one:hover {
+	border-color: black;
+	background: black;
+	color: white;
+}
+
+/*second button*/
+#two {
+	width: 200px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	position: absolute;
+	margin-left: 690px;
+	border: 2px solid;
+	border-color: black;
+	background-color: rgba(63, 81, 181, 0.1);
+	color: black;
+	font-weight: bold;
+}
+
+#two:hover {
+	border-color: black;
+	background: black;
+	color: white;
+}
+
+.another {
+	position: relative;
+}
+
+/*Update section*/
+#third {
+	margin-top: 667px;
+	width: 1345px;
+	height: 667px;
+	background-color: #D63333;
+	position: absolute;
+}
+
+#sect1lead {
+	margin-left: 610px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+	font-weight: bolder;
+}
+
+table {
+	margin-left: 90px;
+	margin-right: 90px;
+	border-collapse: separate;
+	border-spacing: 40px;
+	table-layout: fixed;
+	width: 1150px;
+}
+
+td {
+	width: 500px;
+}
+
+#firstheader{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin-left: 450px;
+	color: orange;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#firstdat {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+	font-size: 22px;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	padding-right: 0px;
+	text-align: center;
+}
+
+.wrap {
+	position: relative;
+}
+
+#map {
+	width: 450px;
+	height: auto;
+	margin: 25px 25px 25px 25px;
+}
+
+.wrap:hover {
+	opacity: 0.6;
+}
+
+.wrap:hover .text_behind .bulletone {
+	display: block;
+}
+.wrap:hover .text_behind .bullettwo {
+	display: block;
+}
+
+.text_behind .bulletone {
+	display: none;
+	position: absolute;
+	opacity: 1;
+	left: 15%;
+	bottom: 50%;
+	z-index: 100;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 22px;
+	font-style: italic;
+	color: black;
+	font-weight: bolder;
+}
+
+.text_behind .bullettwo {
+	display: none;
+	position: absolute;
+	opacity: 1;
+	left: 37%;
+	bottom: 40%;
+	z-index: 100;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 22px;
+	font-style: italic;
+	color: black;
+	font-weight: bolder;
+}
+
+#notif {
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	font-style: italic;
+	color: white;
+}
+#seconddat {
+	border: 4px solid orange;
+}
+
+.other {
+	position: relative;
+}
+
+/*Isabelle @ Brown section*/
+#fourth {
+	margin-top: 1334px;
+	width: 1345px;
+	height: 870px;
+	background-color: #663300;
+	position: absolute;
+}
+
+#top {
+	margin-left: 550px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+	font-weight: bolder;
+}
+
+/*whole container*/
+.collage {
+	width: 900px;
+	overflow: hidden;
+	margin: 50px auto;
+}
+
+.putborder {
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+	padding: 20px;
+}
+/*first part of text*/
+#leader {
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: orange;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#labels {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+/*each individual picture*/
+#size {
+	width: 400px;
+	height: 200px;
+}
+
+#study {
+	margin-left: 400px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+	font-size: 20px;
+}
+
+/*photobanner*/
+.photobanner {
+	width: 3200px;
+	height: 90px;
+	margin-bottom: 100px;
+}
+
+/*keyframe animations*/
+.oneimg {
+	-webkit-animation: bannermove 30s linear infinite;
+	-moz-animation: bannermove 30s linear infinite;
+	-ms-animation: bannermove 30s linear infinite;
+	-o-animation: bannermove 30s linear infinite;
+	animation: bannermove 30s linear infinite;
+}
+
+@keyframes bannermove {
+	0% {margin-left: 0px;}
+	100% {margin-left: -2125px;}
+}
+
+@-moz-keyframes bannermove {
+	0% {margin-left: 0px;}
+	100% {margin-left: -2125px;}
+}
+
+@-webkit-keyframes bannermove {
+	0% {margin-left: 0px;}
+	100% {margin-left: -2125px;}
+}
+
+@-ms-keyframes bannermove {
+	0% {margin-left: 0px;}
+	100% {margin-left: -2125px;}
+}
+
+@-o-keyframes bannermove {
+	0% {margin-left: 0px;}
+	100% {margin-left: -2125px;}
+}
+
+/*final sentence*/
+#ending {
+	font-size: 20px;
+	color: orange;
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
